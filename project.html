@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E:\resposive design\css\normalize.css" />
+    <title>diving-hub-repeat</title>
+
+    <link rel="stylesheet" href="project.css">
+    <script>
+        // Window.onload  = myFunction;
+        //window.onload = dropdown;
+
+        function myFunction() {
+            document.querySelector("#myDropdown").classList.toggle("show");
+        };
+
+        function dropdown() {
+            document.querySelector("#myDropdown-2").classList.toggle("view");
+
+        };
+
+        function dropdownSearchBtn() {
+            document.querySelector("#my-search-content").classList.toggle("search");
+        };
+    </script>
+</head>
+
+<body>
+    <div class="sec-1" container>
+        <div class="header-container">
+            <nav class="header-bar">
+                <img class="logo-1" src="E:\CSS\project images\Full Logo - White BG HUB\Full Logo - White BG HUB.png" width="200" height="62">
+                <ul class="nav-items-1">
+                    <li class="item"> <img src="E:\CSS\project images\global (1).svg" width="15" height="15"><span>Language</span>
+                    </li>
+                    <li class="item"> <img src="E:\CSS\project images\dollar.svg" width="15" height="15"><span onclick="myFunction();" class="dropdown-btn-1">Currency</span>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#"><img src="E:\CSS\project images\european-union\european-union.png" width="26" height="16">EUR</a>
+                            <a href="#"><img src="E:\CSS\project images\unnamed\unnamed.png" width="26" height="16">USD</a>
+                            <a href="#"><img src="E:\CSS\project images\british-flag-vector-16227898\british-flag-vector-16227898.png" width="26" height="16">GBP</a>
+                        </div>
+                    </li>
+                    <li class="item"> <img src="E:\CSS\project images\supermarket.svg" width="15" height="15"><span>My Cart</span></li>
+                    <li class="item"><img src="E:\CSS\project images\user (1).svg" width="15" height="15"><span>Account</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sub-items-1">
+                <a onchange=""><img src="E:\CSS\project images\next.svg" width="12" height="20"></a>
+                <p>Enjoy Your Dream Vacation</p>
+                <a onchange=""><img src="E:\CSS\project images\next (1).svg" width="12" height="20"></a>
+            </div>
+            <div class="sub-items-2">
+                <div class="dropdown-search-btn" onclick="dropdownSearchBtn();"><input class="search-box-1" type="search" autocomplete="off" spellcheck="false" role="combobox" aria-live="polite" placeholder="Destination" aria-invalid="false">
+                    <div class="search-content" id="my-search-content">
+                        <div class="sub-search-content">
+                            <h3>Sharm El Sheikh</h3>
+                            <h4>Egypt - Red Sea</h4>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="search-button-1" onclick="">Search</button>
+            </div>
+            <div class="sub-items-3">
+                <ul class="items-1">
+                    <li>
+
+                        <div class="item">
+                            <a href=""><img src="E:\CSS\project images\scuba-diving.svg" width="52" height="42"></a>
+                            <p>Diving Excursions</p>
+
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <div class="item">
+                            <a href=""><img src="E:\CSS\project images\jeep.svg" width="50" height="42"></a>
+                            <p>Desert Safari</p>
+
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <div class="item">
+                            <a href=""><img src="E:\CSS\project images\kayak.svg" width="42" height="42"></a>
+                            <p>Water Sports</p>
+
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <div class="item">
+                            <a href=""><img src="E:\CSS\project images\diving-mask.svg" width="42" height="42"></a>
+                            <p>Snorkeling</p>
+
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <div class="item">
+                            <a href=""><img src="E:\CSS\project images\guide.svg" width="41" height="41"> </a>
+                            <p>City Tours</p>
+
+                        </div>
+
+                    </li>
+                    <li class="drop">
+                        <div class="item" onclick="dropdown();"><img src="E:\CSS\project images\more (1).svg" width="45" height="12"><br>
+                            <p>More</p>
+                            <div id="myDropdown-2" class="sub-items-3-1">
+                                <a href="#">Service Name</a>
+                                <a href="#">Service Name</a>
+                                <a href="#">Service Name</a>
+                                <a href="#">Service Name</a>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sec-2" container>
+        <div class="section-2-content">
+            <div class="title">
+                <span><span class="color-item" style="color:#F1B146 ;">Featured</span> Destanitions</span>
+                <div class="line-decoration"></div>
+            </div>
+            <div class="grid-position-container">
+
+                <div class="images-position">
+                    <a href=""> <img src="E:\CSS\project images\egyptcairo\egyptcairo.png" alt="egyptcairo" width="610" height="400" title="Cairo">
+                        <div class="subtitle-position-1">
+                            <span>Cairo</span>
+
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+                <div class="images-position-1">
+                    <a href=""> <img src="E:\CSS\project images\unnamed (2)\unnamed (2).png" alt="Safaga" width="300" height="500" title="Safaga">
+                        <div class="subtitle-position-2">
+                            <span>Safaga</span>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+                <div class="images-position-2">
+                    <a href=""> <img src="E:\CSS\project images\Web 1920 – 30\tribloo-spots-203-blue-whole-sinai-divers-dahab-45207f837da710a94a8f1d48b0492e03.png" alt="Dahab" width="300" height="500" title="Dahab">
+                        <div class="subtitle-position-3">
+                            <span>Dahab</span>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+                <div class="images-position-3">
+                    <a href=""> <img src="E:\CSS\project images\nile-cruise-egypt-63c7bab066af\nile-cruise-egypt-63c7bab066af.png" alt="Aswan" width="300" height="500" title="Aswan">
+                        <div class="subtitle-position-4">
+                            <span>Aswan</span>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+                <div class="images-position-4">
+                    <a href=""><img src="E:\CSS\project images\654371-1500\654371-1500.png" alt="Taba" width="300" height="500" title="Taba">
+                        <div class="subtitle-position-5">
+                            <span>Taba</span>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+
+                <div class="images-position-5">
+                    <a href=""><img src="E:\CSS\project images\PGR SpiaggiaDSC_239\PGR SpiaggiaDSC_239.png" alt="Marsa Alam" width="610" height="400" title="Marsa Alam">
+                        <div class="subtitle-position-6">
+                            <span>Marsa Alam</span>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="sec-3" container>
+        <div class="section-3-content">
+            <div class="title">
+                <span><span class="color-item" style="color:#F1B146 ;">Featured</span> Vendors</span>
+            </div>
+            <div class="line-decoration"></div>
+
+            <div class="grid-position-container-1">
+                <!-- <div class="arrow-btn-1" onclick="">
+                    <button onchange=""> <img src="E:\CSS\project images\next.svg" width="8" height="13"></button> 
+
+            </div>  -->
+                <div class="item-images-position-1"> <img src="E:\CSS\project images\tribloo-destinations-70-5a0978d8825da9b254b1f52cd8472477\tribloo-destinations-70-5a0978d8825da9b254b1f52cd8472477.png" alt="image-1" width="300" height="471">
+                    <div class="item-subimages-position-1">
+                        <p>Service Name<br>Center Name</p>
+                        <!-- <div id="stars"><img src="E:\CSS\project images\star.svg"> <img src="E:\CSS\project images\star.svg"> <img src="E:\CSS\project images\star.svg"> <img src="E:\CSS\project images\star.svg"> <img src="E:\CSS\project images\star.svg"> -->
+                    </div>
+                </div>
+
+
+                <div class="item-images-position-2"> <img src="E:\CSS\project images\unnamed (1)\unnamed (1).png" alt="image-2" width="300" height="471">
+                    <div class="item-subimages-position-2">
+                        <p>Service Name<br>Center Name</p>
+                    </div>
+                </div>
+
+
+                <div class="item-images-position-3"> <img src="E:\CSS\project images\71862safaga(1).jpgvv\71862safaga(1).jpgvv.png" alt="image-3" width="300" height="471">
+                    <div class="item-subimages-position-3">
+                        <p>Service Name<br>Center Name</p>
+                    </div>
+                </div>
+
+
+                <div class="item-images-position-4"> <img src="E:\CSS\project images\vista-aerea-hurghada\vista-aerea-hurghada.png" alt="image-4" width="310" height="471">
+                    <div class="item-subimages-position-4">
+                        <p>Service Name<br>Center Name</p>
+                    </div>
+                </div>
+
+                <!-- <div class="arrow-btn-2" onclick="">
+                    <!-- <button onchange=""> <img src="E:\CSS\project images\next.svg" width="8" height="13"></button> -->
+            </div>
+
+        </div><br>
+        <div class="search-btn-container-2">
+            <button class="search" onclick="">Show All</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="sec-4" container>
+        <div class="section-4-content">
+            <div class="title">
+                <span><span id="color-item" style="color:#F1B146 ;">Map</span> View</span>
+                <div class="line-decoration"></div>
+            </div>
+            <div class="grid-position-container-2">
+                <div class="map-item"> <img src="E:\CSS\project images\wptranslaytionday3-local-events-map\wptranslaytionday3-local-events-map.png" alt="map-item" width="1240" height="450"> </div><br>
+                <div class="image-title-1"><img src="E:\CSS\project images\nile-cruise-egypt-63c7bab066af\nile-cruise-egypt-63c7bab066af.png" width="300" height="471">
+                    <div class="background-item-1">
+                        <h3>Title</h3>
+                        <p>It is a long established fact that a reader will be distracted</p>
+                    </div>
+                </div>
+                <div class="image-title-2"><img src="E:\CSS\project images\224309246\224309246.png" width="300" height="471">
+                    <div class="background-item-2">
+                        <h3>Title</h3>
+                        <p>It is a long established fact that a reader will be distracted</p>
+                    </div>
+                </div>
+                <div class="image-title-3"><img src="E:\CSS\project images\Aerial-Eudemonia-Kyvos-Polyaigos-island\Aerial-Eudemonia-Kyvos-Polyaigos-island.png" width="300" height="471">
+                    <div class="background-item-3">
+                        <h3>Title</h3>
+                        <p>It is a long established fact that a reader will be distracted</p>
+                    </div>
+                </div>
+                <div class="image-title-4"><img src="E:\CSS\project images\tribloo-spots-203-blue-whole-sinai-divers-dahab-45207f837da710a94a8f1d48b0492e03\tribloo-spots-203-blue-whole-sinai-divers-dahab-45207f837da710a94a8f1d48b0492e03.png" width="300" height="471">
+                    <div class="background-item-4">
+                        <h3>Title</h3>
+                        <p>It is a long established fact that a reader will be distracted</p>
+                    </div>
+                </div>
+            </div>
+            <div class="search-btn-container-3">
+                <button class="read-more" onclick="">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="sec-5" container>
+        <div class="section-5-content-1">
+            <div class="main-item">
+                <div class="sub-main-item">
+                    <h1>Subscribe to our newsletter</h1>
+                    <p>To be kept informed of our news and promotions, leave us your email</p>
+                    <div class="feedback-item"> <input type="text" placeholder="Type your email" required><button onclick="">Send</button></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-5-content-2">
+            <div class="main-item-1">
+                <div class="sub-main-item-1">
+                    <p>2020 © All Rights Reserved.</p>
+                </div>
+                <div class="sub-main-item-2">
+                    <p>Developed by Creatify Network</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-5-content-3">
+            <div class="main-item-2">
+                <div class="sub-main-item-3">
+                    <img src="E:\CSS\project images\Full Logo - Blue BG HUB\Full Logo - Blue BG HUB.png" width="70" height="60">
+                    <div class="sub-main-item-5">
+                        <ul class="footer-icons">
+                            <li>
+                                <a href="www.facebook.com"><img src="E:\CSS\project images\facebook.svg" width="13" height="24"></a>
+                            </li>
+                            <li>
+                                <a href="www.twitter.com"><img src="E:\CSS\project images\twitter.svg" width="30" height="24"></a>
+                            </li>
+                            <li>
+                                <a href="www.instgram.com"><img src="E:\CSS\project images\instagram (1).svg" width="24" height="24"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sub-main-item-4">
+                    <ul class="footer-list">
+                        <li><a href="#a">Who we are</a></li>
+                        <li><a href="#a">Blog</a></li>
+                        <li><a href="#a"> us</a></li>
+                        <li><a href="#a">Terms And conditions</a></li>
+                        <li><a href="#a">Policy</a></li>
+                        <li><a href="#a">Privacy</a></li>
+                        <li><a href="#a">Site Map</a></li>
+                        <li><a href="#a">Support</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="E:\resposive design\JS\jquery-1.x-git.min.js"></script>
+</body>
+
+</html>
