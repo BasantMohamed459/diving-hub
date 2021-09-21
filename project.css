@@ -5,7 +5,7 @@ body {
 }
 
 div.sec-1 {
-    background-image: url('E:/CSS/project images/egypt-sharm-el-sheikh.png');
+    background-image: url('./project images/egypt-sharm-el-sheikh.png');
     background-repeat: no-repeat;
     background-size: cover;
     /* width: 100%; */
@@ -163,7 +163,8 @@ li :focus {
     padding: 0;
 }
 
-.sub-items-3-1 {
+
+/* .sub-items-3-1 {
     background-color: white;
     width: 121px;
     height: 88px;
@@ -172,7 +173,7 @@ li :focus {
     box-shadow: 0px 3px 10px #00000029;
     opacity: 1;
     position: absolute;
-}
+} */
 
 .sub-items-3-1 ul {
     list-style: none;
@@ -510,8 +511,8 @@ button.search {
 .item-subimages-position-1 p {
     color: #193164;
     margin: 7px;
-    background-image: url('E:/CSS/project images/star.svg'), url('E:/CSS/project images/star.svg'), url('E:/CSS/project images/star.svg');
-    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-image: url('./project images/star.svg');
+    background-repeat: no-repeat;
 }
 
 div.sec-4 {
@@ -711,10 +712,10 @@ footer.sec-5 {
     text-align: left;
     font: normal normal normal 16px/21px Roboto;
     letter-spacing: 0px;
-    overflow: auto;
     z-index: 1;
     padding: 12px;
     box-shadow: 0px 3px 16px #00000029;
+    top: 43px;
 }
 
 .search-content {
@@ -771,7 +772,6 @@ footer.sec-5 {
 
 .show {
     display: block;
-    margin-top: 10rem;
 }
 
 .search {
@@ -788,12 +788,15 @@ footer.sec-5 {
     color: #262626;
     opacity: 1;
     text-align: left;
-    font: normal normal normal Roboto;
     letter-spacing: 0px;
-    overflow: auto;
     z-index: 1;
+    top: 68px;
+    right: 19px;
     padding: 12px;
     box-shadow: 0px 3px 16px #00000029;
+    /**/
+    width: 121px;
+    height: 88px;
 }
 
 .sub-items-3-1 a {
@@ -919,7 +922,7 @@ ul.footer-icons li {
 .arrow-btn-1 {
     width: 45px;
     height: 45px;
-    background-image: url("E:/CSS/project images/next.svg");
+    background-image: url("./project images/next.svg");
     background-repeat: no-repeat;
     background-color: #fff;
     opacity: 1;
@@ -928,7 +931,7 @@ ul.footer-icons li {
 .arrow-btn-2 {
     width: 45px;
     height: 45px;
-    background-image: url("E:/CSS/project images/next.svg");
+    background-image: url("./project images/next.svg");
     background-repeat: no-repeat;
     background-color: #fff;
     opacity: 1;
@@ -973,6 +976,29 @@ ul.nav-items-1 {
     top: 410px;
     /* left: 160px; */
     width: calc(100% - 285px);
+}
+
+.triangle-1 {
+    background-color: white;
+    width: 17px;
+    position: absolute;
+    bottom: 118px;
+    z-index: 1;
+    left: 10px;
+    transform: rotate( 45deg);
+    height: 17px;
+}
+
+.triangle-2 {
+    background-color: white;
+    width: 17px;
+    position: absolute;
+    bottom: 98px;
+    z-index: 3;
+    left: 114px;
+    bottom: 104px;
+    transform: rotate( 45deg);
+    height: 17px;
 }
 
 @media(min-width:768px) {
