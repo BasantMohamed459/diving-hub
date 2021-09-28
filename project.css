@@ -765,6 +765,9 @@ ul.nav-items-1 {
     width: 80%;
 }
 
+
+/* media query */
+
 @media(max-width:768px) {
     nav.header-bar {
         width: 100%;
